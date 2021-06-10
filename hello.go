@@ -1,13 +1,9 @@
 package go_greeting
 
 import (
-	"rsc.io/quote/v3"
+	"rsc.io/quote"
 )
 
 func Hello() string {
-	return quote.HelloV3()
-}
-
-func Proverb() string {
-	return quote.Concurrency()
+	return quote.Hello()
 }
